@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, AlertController } from 'ionic-angular';
-import { Calendar } from '@ionic-native/calendar';
+//import { Calendar } from '@ionic-native/calendar';
 
 @IonicPage()
 @Component({
@@ -15,7 +15,7 @@ export class EditEventPage {
   constructor(public alertCtrl: AlertController,
     public navCtrl: NavController,
     public navParams: NavParams,
-    private calendar: Calendar) {
+    ) {
       this.event = navParams.get("event");
       var startDate = new Date(navParams.get("event").startDate.replace(/\s/, 'T')).toISOString();
       var endDate = new Date(navParams.get("event").endDate.replace(/\s/, 'T')).toISOString();
