@@ -2,7 +2,7 @@
 <widget id="th.ac.ptnicec.it.dep.s64309010037.mycalendar" version="1.0.0 " xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>myCalendarApp37</name>
     <description>เป็นแอพเกี่ยวกับปฏิทินกิจกรรม</description>
-    <author email="ห64309010037@ptnicec.ac.th" href="http://ionicframework.com/">Ionic Framework Team</author>
+    <author email="s64309010037@ptnicec.ac.th" href="http://ionicframework.com/">Ionic Framework Team</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
